@@ -1,0 +1,10 @@
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; /* 不知道為何SCSS無法編譯出來 另外寫一個CSS */
+    overflow: hidden;
+    text-overflow: ellipsis;
+  
+  }
+  /* // https://www.astralweb.com.tw/css-ellipsis/
+  // https://stackoverflow.com/questions/63376172/how-can-i-use-webkit-line-clamp */

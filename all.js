@@ -163,8 +163,4 @@ axios.get(url,{
   }
 
 
-  function render(){
-
-
-
-  };
+ 

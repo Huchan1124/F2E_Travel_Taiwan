@@ -70,11 +70,4 @@
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-
-.line-clamp {
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
 /*# sourceMappingURL=style.css.map */
