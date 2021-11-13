@@ -34,8 +34,8 @@
   line-height: 22px;
 }
 
-.scene, .activity {
-  padding: 9% 0;
+.hotel, .activity, .scenicSpot {
+  padding-top: 8%;
 }
 
 .footer__banner {
@@ -55,5 +55,13 @@
 .footer {
   padding: 3% 0;
   background-color: #08A6BB;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.bg-green {
+  background-color: #08a6bb;
 }
 /*# sourceMappingURL=style.css.map */
