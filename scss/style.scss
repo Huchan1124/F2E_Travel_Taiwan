@@ -69,3 +69,21 @@
 .bg-green {
   background-color:  #08a6bb;;
 }
+
+.ellipsis {
+  overflow:hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+  }
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+  // https://www.astralweb.com.tw/css-ellipsis/
+  // https://stackoverflow.com/questions/63376172/how-can-i-use-webkit-line-clamp
